@@ -1,15 +1,14 @@
 module.exports = {
-    parser: 'babel-eslint',
-    extends: 'airbnb',
+  parser: "babel-eslint",
 
-    rules: {
-        'react/jsx-filename-extension': 0,
-        'no-unused-vars': 0,
-        'react/prop-types': 0,
-    },
+  rules: {
+    "react/jsx-filename-extension": 0,
+    "no-unused-vars": 0,
+    "react/prop-types": 0,
+  },
 
-    env: {
-        browser: true,
-        mocha: true
-    },
-}
+  env: {
+    browser: true,
+    mocha: true,
+  },
+};
